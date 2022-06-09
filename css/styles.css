@@ -7,8 +7,8 @@
     
     --background-primary-color:#FFFFFF;
     --background-secondary-color:#2F303A;
-    --background-tertiary-color:#E5E5E5;
-    --background-quaternary-color:#F5F4FA;
+    
+    
     
 }
 
@@ -19,7 +19,10 @@ body{
 
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
+    
 }
+
+
 
 /*logo*/
 
@@ -29,6 +32,8 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1,19;
+    text-decoration: none;
+    
 }
 .logo-up{
     color:var(--main-text-color);
@@ -38,6 +43,7 @@ body{
 }
 .list{
     list-style: none;
+    
    
 }
 .site-nav .link{
@@ -47,6 +53,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -62,6 +69,7 @@ body{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts a:hover, 
 .contacts a:focus{
@@ -79,16 +87,16 @@ body{
     text-align: center;
 }
 .title-none {
-    color: var(--background-tertiary-color);
+    color: transparent;
 }
-.section {
-    background-color: var(--background-tertiary-color);
-}
+
+
 .benefits .title {
     color: var(--main-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .benefits p {
@@ -97,7 +105,7 @@ body{
     line-height: 1.71;
 }
 .section-team {
-    background-color:var(--background-quaternary-color);
+    background-color:#F5F4FA;
 }
 
 .section-team p{
@@ -116,7 +124,7 @@ body{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    
+    text-transform: uppercase;
     text-align: center;
    
     
@@ -141,6 +149,11 @@ body{
     line-height: 1.86;
      
 }
+.hero-button:hover,
+.hero-button:focus{
+    background-color:#188CE8;
+    
+}
 /*portfolio*/
 
 .portfolio .title {
@@ -161,7 +174,9 @@ body{
     font-size: 16px;
     line-height: 1.63;
 }
-
+.portfolio a{
+    text-decoration: none;
+}
 
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -170,7 +185,7 @@ body{
 
 }
 .title-portfolio{
-    color: #FFFFFF;
+    color: transparent;
 }
 
 .portfolio p{
@@ -198,4 +213,5 @@ body{
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+    text-decoration: none;
 }
